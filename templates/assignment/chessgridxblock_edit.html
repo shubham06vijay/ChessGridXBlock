@@ -1,0 +1,59 @@
+
+{% load i18n %}
+
+<div id="staff-graded-assignment-edit">
+  <ul class="list-input settings-list">
+    <table>
+    {% for field, value, validator in fields %}
+    <tr>
+    <li class="field comp-setting-entry metadata_entry">
+      <div class="wrapper-comp-setting">
+     <td> <label class="label setting-label" 
+          for="{{ field.name }}_input">{{ field.display_name }}</label>
+      </td> <td> <input class="input setting-input" type="text" 
+               id="{{ field.name }}_input" name="{{ field.name}}" 
+               value="{{ value }}" data-validator="{{ validator }}"/>
+        </td> </div>
+      <span class="tip setting-help">{{ field.help }}</span>
+    </li>
+    </tr>
+    {% endfor %}
+     </table>
+  </ul>
+</div>
+
+<script type="application/javascript">
+ $("ul.action-modes").html(' <li class="view-button sga_editor_tab">{% trans "" %}</li>')
+</script>
+
+<strong><i><p id="sms"></p></i></strong>
+
+
+<table align="left">
+<tr><td><button id="QG">Question Grid</button></td>
+<td><button id="AG">Solution Grid</button><br></td>
+
+</tr></table><table align="right"><tr><td><button id="SQG">Submit Question Grid</button>
+</td><td><button id="SAG">Submit Solution Grid</button></td></tr></table>
+
+<div id="hello"> </div>
+
+
+<!--
+<div>
+
+<input type="text" id="ques" placeholder="Question" style="height:50px;width:200px;border:1px solid;border-radius:5px;" required ><br>
+<br>
+<input type="text" id="ans" placeholder="Solution" style="height:50px;width:200px;border:1px solid;border-radius:5px;" required><br>
+
+</div> 
+
+
+<button id="chess_grid">ChessGrid</button><br>
+
+<p>
+    <span class='count'></span><button> (click me to save).</button>
+</p>
+
+-->
+
