@@ -1,4 +1,4 @@
-/* CSS for YourXBlock */
+/* CSS for ChessGridXBlock */
 
 .grid { margin:1em auto; border : 8px solid black; border-collapse:collapse }
 
@@ -37,21 +37,4 @@ input:focus {
     left: 1px;
 }
 
-/*
-#str1 {
-	width:50px;
-	height:20px;
-	border: 1px solid;
-}
-div {
-  width: 90%;
-  padding-bottom: 5%;
-  background:gold; 
-}
-#str2 {
-	width:50px;
-	height:20px;
-}
-*/
-/*
-*/
+
