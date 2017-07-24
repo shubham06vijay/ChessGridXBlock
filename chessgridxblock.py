@@ -125,9 +125,6 @@ class ChessgridXBlock(XBlock):
                 context
             )
         )
-
-
-
         fragment.add_css(_resource("static/css/chessgridxblock.css"))
         fragment.add_javascript(_resource("static/js/src/chessgridxblock.js"))
         fragment.initialize_js('ChessgridXBlock')
