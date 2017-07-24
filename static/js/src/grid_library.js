@@ -1,4 +1,4 @@
-	/* Javascript for Grids */
+	/* GRID LIBRARY */
 
 
 		var r=8;var c=8; var a=0; var lastid;var dict={};  var save_grid={};  var temp1,temp2,temp3;
