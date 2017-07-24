@@ -1,12 +1,12 @@
 # Grid Component
 
-We have created a grid component which makes the Grid creation and it's integration with XBlock simpler.
-It can be used in applications where Grid is required e.g. Board games like Chess , Sudoku.
+We have created a reusable grid component which makes the Grid creation and it's integration with XBlock simpler.
+It can be used in applications where Grid is required e.g. Board games like Chess , Sudoku, crosswords etc.
 
-We have created a ChessgridXBlock in which we have used the grid_library.js.
+We have created a ChessgridXBlock in which we have used our library grid_library.js.
 
-To use our grid_library.js, one need to include our library in their XBlock.
-After that one can access it's function
+To use grid_library.js, one needs to include the library in their XBlock.
+After that one can access it's functions(API's).
 
 # Functionality
 
@@ -21,10 +21,10 @@ After that one can access it's function
 
 
 # ChessgridXBlock
-In this we have using this grid component.
+In this we have used the grid component(The JS library).Then we have created our XBlock.It consists of 2 views.
 In studio view teacher sets the problem.
 In student view student submits the solution.
-We compare their Grid Solutions and showed the result in progress bar.
+We compare their answer submitted by the student the Grid Solution by the teacher and show the result in progress bar by storing the result in the EDX database itself.
 
 To learn more about XBlocks:
 refer to https://open.edx.org/xblocks
