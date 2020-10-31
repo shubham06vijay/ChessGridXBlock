@@ -6,7 +6,7 @@ It can be used in applications where Grid is required e.g. Board games like Ches
 We have created a ChessgridXBlock in which we have used our library grid_library.js.
 
 To use grid_library.js, one needs to include the library in their XBlock.
-After that one can access it's functions(API's).
+After that one can access its functions(APIs).
 
 # Functionality
 
